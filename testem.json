@@ -1,0 +1,20 @@
+{
+  "framework": "qunit",
+  "serve_files": [
+    "bower_components/loader.js/loader.js",
+    "http://localhost:4200/named-amd/main.js",
+    "output.js",
+    "tests/support/setup.js",
+    "tests/**/*.spec.js"
+  ],
+  "watch_files": [
+    "tmp/broccoli.log",
+    "tests/support/setup.js",
+    "tests/**/*.spec.js"
+  ],
+  "parallel": 4,
+  "launch_in_dev": ["PhantomJS", "Safari", "Chrome"],
+  "launch_in_ci": ["PhantomJS"],
+  "on_start": "script/testem_on_start",
+  "on_exit": "script/testem_on_exit"
+}

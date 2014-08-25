@@ -1,0 +1,25 @@
+{
+  "name": "js-lib-blueprint",
+  "ignore": [
+    "bower_components",
+    "build",
+    "examples",
+    "node_modules",
+    "recipes",
+    "script",
+    "tests",
+    "tmp",
+    "vendor",
+    "**/.*",
+    "Brocfile.js",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json",
+    "testem.json"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "loader.js": "*"
+  }
+}
